@@ -1,0 +1,163 @@
+/*Header Css starts*/
+body{
+    margin: auto;
+    background-color: #e9a48c;
+}
+#header{
+    height:60px;
+    width: 100%;
+    background-color: #b56f56;
+    margin-bottom: 0%;
+}
+.icon{
+    font-size: 18px;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: -1%;
+    color: #e97601;
+}
+.socials{
+    float: right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+.slogo{
+    height: 40px;
+    width: 40px;
+}
+/*Header Css ends*/
+/*Search Css Starts*/
+a{
+    text-decoration: none;
+}
+#search{
+    height: 400px;
+    background-image: url('images/food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    margin-top:-1%
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: #8b3437;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 2%; 
+    animation: collapse 10s infinite;  
+}
+@keyframes collapse{
+    0% {margin-left: 45%; height:150px; width:150px}
+    25% {margin-left:35%; height:0px; width:0px}
+    50% {margin-left: 45%; height:150px; width:150px}
+    75%{margin-left: 55%; height:0px; width:0px}
+    100% {margin-left: 45%; height:150px; width:150px}
+    
+}
+#logo >  span{
+    margin-top: 32%;
+    margin-right: 20px;
+    position: absolute;
+}
+span{
+    font-size: 50px;
+    text-align: center;
+    color: orange;
+    margin-left: 46px;   
+}
+.heading{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 32%;
+}
+select{
+    height: 40px;
+    width: 30%;
+}
+.col-lg-3{
+    position: absolute;
+    height: 160px;
+    margin-left: 25%;
+    margin-top: 22%;
+}
+.col-lg-5{
+    margin-top: 22%;
+}
+/*Search Css Ends*/
+/*quickSearch Css Starts*/
+.dropdown{
+    margin-top: 0%;
+}
+#quicksearch{
+    height:800px;
+    width: 100%;
+    
+}
+#quickHeading{
+    font-size: 40px; 
+    margin-left: -0%;
+    color: #dd5858;
+    display: block;
+}
+#quickHeading:hover{
+    color: blueviolet;
+}
+#quickHeading > span{
+    margin-right: 43%;
+    
+}
+#quickSubHeading{
+    font-size: 30px;
+    margin-left: 8%;
+    color:grey;
+}
+.mainTile{
+    margin-left: 10%;
+
+}
+.tileContainer{
+    display: inline-block;
+    margin-left: 7%;
+    box-shadow:10px 20px 10px grey ;
+    margin-top: 3%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-color: #f1d9d9;
+}
+.tileContainer:hover{
+    transform: scale(1.1);
+}
+.tileComponent1{
+    width: 100%;
+    height: 180px;
+}
+.tileComponent2{
+    
+}
+.tileHeading{
+    font-size:30px;
+    text-align: center;
+    margin-top: -1%;
+}
+.tileHeading > a{
+    text-decoration: none;
+    color: brown;
+}
+.tileSubHeading{
+    font-size: 20px;
+    text-align: center;
+}
+.burger{
+    height:160px;
+    width: 240px;
+
+}
+
+
+
+

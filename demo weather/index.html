@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="index.css">
+    <title>Weather</title>
+</head>
+
+<body onload="DefaultScreen()">
+    <div class="weatherhead">
+        <h2 id="Para1">Weather Report for next 5 Days</h2>
+        <p id="inputContainer">City: <input type="text" id="cityInput"></p>
+        <button class="btn btn-danger" type="button" onclick="GetInfo()">Get Weather</button>
+        <h2 id="cityName"></h2>
+    </div>
+
+    <div id="weatherContainer">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="card">
+                    <p class="weather" id="day1"></p>
+                    <div class="image"><img src="" class="imgClass" id="img1"></div>
+                    <p class="minValues" id="day1Min">Loading...</p>
+                    <p class="maxValues" id="day1Max">Loading...</p>
+                    <p class=description id="description1">Loading...</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <p class="weather" id="day2"></p>
+                    <div class="image"><img src="" class="imgClass" id="img2"></div>
+                    <p class="minValues" id="day2Min">Loading...</p>
+                    <p class="maxValues" id="day2Max">Loading...</p>
+                    <p class=description id="description2">Loading...</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <p class="weather" id="day3"></p>
+                    <div class="image"><img src="" class="imgClass" id="img3"></div>
+                    <p class="minValues" id="day3Min">Loading...</p>
+                    <p class="maxValues" id="day3Max">Loading...</p>
+                    <p class=description id="description3">Loading...</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <p class="weather" id="day4"></p>
+                    <div class="image"><img src="" class="imgClass" id="img4"></div>
+                    <p class="minValues" id="day4Min">Loading...</p>
+                    <p class="maxValues" id="day4Max">Loading...</p>
+                    <p class=description id="description4">Loading...</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <p class="weather" id="day5"></p>
+                    <div class="image"><img src="" class="imgClass" id="img5"></div>
+                    <p class="minValues" id="day5Min">Loading...</p>
+                    <p class="maxValues" id="day5Max">Loading...</p>
+                    <p class=description id="description5">Loading...</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <p class="weather" id="day6"></p>
+                    <div class="image"><img src="" class="imgClass" id="img6"></div>
+                    <p class="minValues" id="day6Min">Loading...</p>
+                    <p class="maxValues" id="day6Max">Loading...</p>
+                    <p class=description id="description6">Loading...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+
+<hr>
+</body>
+<footer>
+    <center>&copy; Tejas Developer</center>
+</footer>
+</html>
